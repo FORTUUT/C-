@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define LENG 1
+#define LENG 1						   //加密长度配置
 char file_to_encrypto[100];			   //需要加密的文件路径及名称
 char file_to_decrypto[100];			   //需要解密的文件路径及名称
 char encrypted_file[50] = "encrypted"; //加密后的部分文件名
