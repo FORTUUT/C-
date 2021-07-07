@@ -162,7 +162,7 @@ int main()
 	int choice = 0;
 	while (1)
 	{
-		system("color 0a");
+		system("color 0b");
 		system("cls");
 		printf("欢迎使用文件加密系统！\n");
 		printf("请输入您的选择\n");
