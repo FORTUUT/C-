@@ -102,6 +102,12 @@ int Bracket(SqStack &S, char *str)
 	return OK;
 }
 
+//判断是否为空栈
+int StackEmpty(SqStack &S){
+if(S.top==0) return 1;
+else return 0;
+} 
+
 //主函数
 int main(void)
 {
