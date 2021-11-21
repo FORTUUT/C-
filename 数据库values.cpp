@@ -1,8 +1,8 @@
 #include<bits/stdc++.h>
 #define num1 94
 using namespace std;
-char surname[][3]={"ÁÎ","³Â","Àî","ÂÀ","Áõ","Áú","Ñî","Íõ","»Æ","ÕÔ","ÖÜ","Ëï","ÂŞ","ºú","Öì","Îâ","»Æ","¹ù","ÁÖ","¸ß","Ğì","Âí","ºÎ"};
-char admini_name[][7]={"ÕÔÍøËë","Áõİ¹ÅÂ","ºú½İ","»Æõ»äı","ÂíäìÇ¤","ÂŞ¼â","»ÆÂ¤Ö¥","Îâ½Ø","ºÎ¹ß","ºÎêÖß¢"};
+char surname[][3]={"å»–","é™ˆ","æ","å•","åˆ˜","é¾™","æ¨","ç‹","é»„","èµµ","å‘¨","å­™","ç½—","èƒ¡","æœ±","å´","é»„","éƒ­","æ—","é«˜","å¾","é©¬","ä½•"};
+char admini_name[][7]={"èµµç½‘ç©—","åˆ˜è¨æ€•","èƒ¡æ·","é»„è¶¸æ½º","é©¬æ½‡æ‰¦","ç½—å°–","é»„é™‡èŠ","å´æˆª","ä½•æƒ¯","ä½•æ››æ’·"};
 int *ID;
 int id_len=1;
 int use_surname=0;
@@ -49,10 +49,10 @@ l1:	str = (char*)malloc((2*length + 1)*sizeof(char));
 	}
 	str[2*length] = '\0';
 	if(s==1){
-		cout<<"insert into Ô±¹¤ values('"<<surname[rand_name]<<str<<"',"<<age<<","<<"'"<<"ÄĞ"<<"',"<<id<<","<<salary<<","<<20210+c<<",'"<<admini_name[rand_admini_name]<<"')"<<endl;
+		cout<<"insert into å‘˜å·¥ values('"<<surname[rand_name]<<str<<"',"<<age<<","<<"'"<<"ç”·"<<"',"<<id<<","<<salary<<","<<20210+c<<",'"<<admini_name[rand_admini_name]<<"')"<<endl;
 	}
 	else{
-		cout<<"insert into Ô±¹¤ values('"<<surname[rand_name]<<str<<"',"<<age<<","<<"'"<<"Å®"<<"',"<<id<<","<<salary<<","<<20210+c<<",'"<<admini_name[rand_admini_name]<<"')"<<endl;
+		cout<<"insert into å‘˜å·¥ values('"<<surname[rand_name]<<str<<"',"<<age<<","<<"'"<<"å¥³"<<"',"<<id<<","<<salary<<","<<20210+c<<",'"<<admini_name[rand_admini_name]<<"')"<<endl;
 	}
 }
 
