@@ -1,3 +1,6 @@
+/************
+文件加解密系统
+*************/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -183,7 +186,8 @@ int main()
 			break;
 		case 3:
 			printf("非常感谢您的使用！期待与您下次相见\n");
-			system("taskkill -f -im 文件加解密系统.exe");
+			system("pause");
+			system("taskkill -f -im file_encrypto.exe");
 			break;
 		}
 	}
