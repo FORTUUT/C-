@@ -11,7 +11,8 @@
                 //"-std=c++11",
                 "${file}",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "E:\\vscode\\c++\\EXE\\${fileBasenameNoExtension}.exe"
+                //"${fileDirname}\\EXE\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
